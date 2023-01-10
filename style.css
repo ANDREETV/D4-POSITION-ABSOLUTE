@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 20px 20px 0;
+}
+
 .contenitore > div {
     height: 120px;
     width: 120px;
     position: absolute;
-    margin: 20px 0 0 20px;
     position: absolute;
 }
 
@@ -24,17 +27,14 @@
     background-color: yellow;
     top: 120px;
     left: 120px;
-
 }
 .box-4 {
     background-color: green;
     top: 180px;
     left: 180px;
-
 }
 .box-5 {
     background-color: blue;
     top: 240px;
     left: 240px;
-
 }
